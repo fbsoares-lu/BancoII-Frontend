@@ -1,0 +1,52 @@
+.products-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.products-list article {
+    background: #fff;
+    border: 1px solid #30cef7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.products-list strong {
+    font-size: 20px;
+}
+
+.products-list article p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.products-list article span{
+    color: #30cef7;
+}
+.products-list article strong{
+    color: #21ADCF;
+}
+
+.products-list article a {
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid #30cef7;
+    background: none;
+    margin-top: 10px;
+    color: #30cef7;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.products-list article a:hover {
+    background: #30cef7;
+    color: #fff;
+}
