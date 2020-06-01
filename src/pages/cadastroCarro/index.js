@@ -56,7 +56,7 @@ export default class CadastroCarro extends Component {
                             name="placa" 
                             value={this.state.placa}
                             onChange={this.changeHandler}
-                            placeholder="Informe o número da placa" />
+                            placeholder=" Informe o número da placa" />
                         </div>
 
                         <div>
@@ -66,7 +66,7 @@ export default class CadastroCarro extends Component {
                             name="modelo_codMod" 
                             value={this.state.modelo_codMod}
                             onChange={this.changeHandler}
-                            placeholder="Informe o código do carro" />
+                            placeholder=" Informe o código do carro" />
                         </div>
 
                         <div>
@@ -76,7 +76,7 @@ export default class CadastroCarro extends Component {
                             name="cliente_cpf" 
                             value={this.state.cliente_cpf}
                             onChange={this.changeHandler}
-                            placeholder="Informe o CPF do cliente"  />
+                            placeholder=" Informe o CPF do cliente"  />
                         </div>
 
                         <div>
@@ -86,7 +86,7 @@ export default class CadastroCarro extends Component {
                             name="cor" 
                             value={this.state.cor}
                             onChange={this.changeHandler}
-                            placeholder="Informe a cor do veículo" />
+                            placeholder=" Informe a cor do veículo" />
                         </div>
                         <button type="submit">Submit</button>
                     </form>

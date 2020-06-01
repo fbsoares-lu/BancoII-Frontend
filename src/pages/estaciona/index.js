@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-export default class Main extends Component{
+export default class Estaciona extends Component{
     state = {
         products: [],
     }
@@ -14,7 +14,7 @@ export default class Main extends Component{
     }
 
     loadProducts = async () => {
-        const response = await api.get('/listarEstaciona');
+        const response = await api.get('/estaciona');
         this.setState({ products: response.data });
     };
 
@@ -28,7 +28,7 @@ export default class Main extends Component{
                     <p><span>Data de Entrada: </span>{product.dtEntrada}</p>
                     <p><span>Data de Saída: </span>{product.dtSaida}</p>
                     <p><span>Pátio: </span>{product.Patio_num}</p>
-                    <Link to={`/listarEstaciona/${product.codigo}`}>Acessar</Link>
+                    <Link to={`/details/${product.codigo}`}>Detalhes</Link>
                    </article>
                 ))}
             </div>

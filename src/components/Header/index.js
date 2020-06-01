@@ -8,8 +8,8 @@ export default function Header() {
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/listarEstaciona">Listar local</a></li>
-                    <li><a href="/cadastroEsta"></a>Cadastrar local</li>
+                    <li><a href="/estaciona">Listar local</a></li>
+                    <li><a href="/cadastroEsta">Cadastrar local</a></li>
                     <li><a href="/cadastroCarro">Cadastrar veículo</a></li>
                     <li><a href="/listarVeiculo">Listar veículo</a></li>
                 </ul>

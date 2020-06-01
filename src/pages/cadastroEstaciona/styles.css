@@ -1,4 +1,4 @@
-.createCar{
+.createCar1{
     max-width: 500px;
     margin: 20px auto 0;
     margin-top: 60px;
@@ -9,22 +9,23 @@
     border: 2px solid #30cef7;
     border-radius: 5px; 
     background: #ffffff;   
+    height: 545px;
 }
 
-.createCar h1{
+.createCar1 h1{
     margin-top: -240px;
     margin-left: -8px;
     color: #30cef7;
     font-size: 20px;
 }
 
-.createCar p {
+.createCar1 p {
     margin-left: 10px;
     font-size: 12px;
     color: #30cef7;
 }
 
-.createCar input{
+.createCar1 input{
     width: 300px;
     height: 30px;
     border-radius: 5px;
@@ -35,12 +36,12 @@
     color: #30cef7; 
 }
 
-.createCar input::placeholder{
+.createCar1 input::placeholder{
     color: #e0e0e0;
     opacity: unset;
 }
 
-.createCar button{
+.createCar1 button{
     width: 300px;
     height: 30px;
     border-radius: 5px;

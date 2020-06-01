@@ -31,7 +31,7 @@ export default class Veiculo extends Component{
                         <p><span>Código Veículo: </span>{product.modelo_codMod}</p>
                         <p><span>CPF cliente: </span>{product.cliente_cpf}</p>
                         <p><span>Cor veículo: </span>{product.cor}</p>
-                        <Link to={`/listarEstaciona/${product.codigo}`}>Acessar</Link>
+                        <Link to={`/detailsVeiculo/${product.placa}`}>Detalhes</Link>
                     </article>
                     ))}
                 </div>

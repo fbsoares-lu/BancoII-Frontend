@@ -13,7 +13,7 @@ export default class Principal extends Component {
                     <div className="primeiro">
                         <p>Projeto da disciplina de Banco de Dados II da Universidade Católica de Pernambuco.<p>Nosso banco de dados está relacionado com estacionamento para carros e motos.</p><p className="nomes">Alunos:<p> Hildemir Regis </p><p>João Pedro</p><p> Lucas Soares</p></p></p>
                     </div>
-                    <img src={bdImg} width="300px" />
+                    <img className="imagem1" src={bdImg} width="300px" />
                 </div>
 
                 <div className="menu-center">
