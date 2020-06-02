@@ -14,6 +14,7 @@
     margin-left: -8px;
     color: #30cef7;
     font-size: 20px;
+    transition: all 0.5s;
 }
 
 .createCar2 p {
@@ -60,7 +61,7 @@ button:hover{
 }
 
 .products-list1{
-    width: 800px;
+    width: 900px;
     padding: 20px;
     margin-top: -320px;
     float: right;
@@ -71,7 +72,8 @@ button:hover{
     background: #fff;
     border: 2px solid #30cef7;
     border-radius: 5px;
-    padding: 46px;
+    padding: 48px;
+    transition: all 0.5s;
 }
 
 .products-list1 strong {
@@ -90,10 +92,4 @@ button:hover{
 }
 .products-list1 article strong{
     color: #21ADCF;
-}
-
-
-.products-list1 article a:hover {
-    background: #30cef7;
-    color: #fff;
 }
