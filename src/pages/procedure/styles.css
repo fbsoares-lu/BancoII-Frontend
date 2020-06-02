@@ -1,0 +1,99 @@
+.createCar2{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding:40px;
+    border: 2px solid #30cef7;
+    border-radius: 5px; 
+    background: #ffffff;   
+    height: 300px;
+}
+
+.createCar2 h1{
+    margin-top: -240px;
+    margin-left: -8px;
+    color: #30cef7;
+    font-size: 20px;
+}
+
+.createCar2 p {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #30cef7;
+}
+
+.createCar2 input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-color: #30cef7;
+    border: 1px solid #30cef7;
+    color: #30cef7; 
+}
+
+.createCar2 input::placeholder{
+    color: #e0e0e0;
+    opacity: unset;
+}
+
+.createCar2 button{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    border-color: #30cef7;
+    border: 1px solid #30cef7;
+    color: #ffffff;
+    background: #30cef7;
+    font-size: 16px;
+}
+
+button:hover{
+    background: rgb(3, 18, 22);
+    border-color: rgb(3, 18, 22);
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.products-list1{
+    width: 800px;
+    padding: 20px;
+    margin-top: -320px;
+    float: right;
+    margin-right: 30px;
+}
+
+.products-list1 article {
+    background: #fff;
+    border: 2px solid #30cef7;
+    border-radius: 5px;
+    padding: 46px;
+}
+
+.products-list1 strong {
+    font-size: 20px;
+}
+
+.products-list1 article p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.products-list1 article span{
+    color: #30cef7;
+}
+.products-list1 article strong{
+    color: #21ADCF;
+}
+
+
+.products-list1 article a:hover {
+    background: #30cef7;
+    color: #fff;
+}
