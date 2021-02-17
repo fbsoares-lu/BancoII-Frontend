@@ -1,7 +1,7 @@
 header#main-header{
     width: 100%;
     height: 70px;
-    background: #30cef7;
+    background: #308df7;
     font-size: 16px;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -42,6 +42,6 @@ a{
 }
 
 a:hover{
-    color: rgb(25, 117, 139);
+    color: #cecdcd;
     transition: 0.3s;
 }
